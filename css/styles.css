@@ -1,0 +1,84 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/** NAVBAR STYLING BEGINS HERE **/
+
+ul.nav li a, ul.nav li a:visited {
+    color: #0f8a96 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #bdc3c7 !important;
+}
+
+ul.nav li.active a {
+    color: #0f8a96 !important;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-default {
+	margin-bottom: 0;
+}
+
+/** NAVBAR STYLING ENDS HERE **/
+
+/** INTRO STYLING BEGINS HERE **/
+
+.jumbotron {
+	background: url('../img/coding.png') no-repeat center center fixed;
+	background-size: cover;
+	height: 650px;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 11.5em;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	margin-bottom: 1em;
+	font-size: 3.5em;
+	border: solid 3px white;
+	padding: .5em;
+}
+
+.jumbotron p {
+	margin-bottom: 2em;
+}
+
+.btn-lg {
+	background-color: #0f8a96 !important;
+	border: none;
+	width: 150px;
+}
+
+/** DOES NOT WORK - FIX **/
+.btn-lg a:hover {
+	background-color: #e74c3c !important;
+}
+
+/** INTRO STYLING ENDS HERE **/
+
+/** ABOUT ME STYLING BEGINS HERE **/
+
+.about-me {
+	background-color: #0f8a96;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.about-me h2 {
+	border: solid 3px white;
+	padding: .5em;
+}
+
+.about-me p {
+	font-size: 1.2em;
+}
+
+/** ABOUT ME STYLING ENDS HERE **/
