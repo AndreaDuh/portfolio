@@ -4,8 +4,8 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: white;
-    border-width: 3px;
+    border-color: #7f8c8d;
+    border-width: 2px;
 }
 
 /** NAVBAR STYLING BEGINS HERE **/
@@ -33,24 +33,24 @@ ul.nav li.active a {
 /** NAVBAR STYLING ENDS HERE **/
 
 /** INTRO STYLING BEGINS HERE **/
+.box {
+    height: 225px;
+    background-color: white;
+    margin-top: 45px;
+}
 
 .jumbotron {
-	background: url('../img/coding.png') no-repeat center center fixed;
-	background-size: cover;
-	height: 650px;
-	color: white;
-	font-weight: 300;
+	background: url('../img/cover.jpg') no-repeat;
+    background-size: cover;
 	text-align: center;
-	padding-top: 9em;
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .jumbotron h1 {
 	margin-bottom: .8em;
-	font-weight: 600;
-	font-size: 4.2em;
-	border: solid 3px white;
-	padding: .5em;
+	font-size: 36px;
+    font-style: italic;
+    color: #4b4b4b;
 }
 
 .jumbotron p {
@@ -58,34 +58,58 @@ ul.nav li.active a {
 }
 
 .btn-lg {
-	background-color: #0f8a96 !important;
-	border: none;
-	width: 150px;
+    background: none !important;
+    color: #0f8a96;
+	border: 2px solid white;
+    border-radius: 0%;
+	width: 130px;
+    font-size: 12px;
+    margin-top: 30px;
 }
 
 /** DOES NOT WORK - FIX **/
-.btn-lg a:hover {
-	background-color: #e74c3c;
+.btn a:hover {
+	background-color: white;
 }
 
 /** INTRO STYLING ENDS HERE **/
 
 /** ABOUT ME STYLING BEGINS HERE **/
-
-.about-me {
-	background-color: #0f8a96;
-	color: white;
-	text-align: center;
-	font-weight: 300;
+#about {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    background-color: #0f8a96;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
+#about hr {
+    border-color: white;
+}
 
-.about-me p {
-	font-size: 1.1em;
-	padding-bottom: 1em;
+#skills {
+    background-color: #ecf0f1;
+    text-align: center;
+    color: #7f8c8d;
+    padding-bottom: 30px;
+}
+
+#skills h2 {
+   color: #0f8a96; 
+   padding-top: 20px;
+}
+
+.icons {
+    display: inline;
 }
 
 /** ABOUT ME STYLING ENDS HERE **/
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 .portfolio-box {
     display: block;
@@ -136,6 +160,36 @@ ul.nav li.active a {
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
+
+#contact {
+    height: 340px;
+    background-color: #ecf0f1;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #0f8a96;
+    margin-top: 40px;
+}
+
+#contact p {
+    color: #7f8c8d;
+    font-size: 18px;
+}
+
+.glyphicon {
+    font-size: 48px;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-top: 30px; 
+}
+
 
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
