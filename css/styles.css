@@ -1,11 +1,14 @@
-body {
-	font-family: 'Source Sans Pro', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-hr {
-    max-width: 50px;
-    border-color: #7f8c8d;
-    border-width: 2px;
+h2{
+    font-size: 24px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /** NAVBAR STYLING BEGINS HERE **/
@@ -28,38 +31,39 @@ ul.nav li.active a {
 
 .navbar-default {
 	margin-bottom: 0;
+    width: 100%;
+    position: fixed;
 }
-
-/** NAVBAR STYLING ENDS HERE **/
 
 /** INTRO STYLING BEGINS HERE **/
-.box {
-    height: 205px;
-    background-color: white;
-    margin-top: 45px;
-}
 
 .jumbotron {
-	background: url('../img/cover.jpg') no-repeat;
+	background-image: url('../img/bg.png');
     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
 	text-align: center;
     margin-bottom: 0;
+    height: 964px;
 }
 
 .jumbotron h1 {
 	margin-bottom: .8em;
-	font-size: 36px;
-    font-style: italic;
-    color: #4b4b4b;
+	font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-top: 300px;
 }
 
 .jumbotron p {
 	margin-bottom: 2em;
     font-size: 16px;
+    color: white;
+    margin-top: 2.5em;
 }
 
 .btn-lg {
-    background: none !important;
+    background: white !important;
     color: #0f8a96;
 	border: 2px solid white;
     border-radius: 0%;
@@ -68,26 +72,30 @@ ul.nav li.active a {
     margin-top: 30px;
 }
 
-/** DOES NOT WORK - FIX **/
-.btn a:hover {
-	background-color: white;
+.btn-lg:hover {
+    background: none !important;
+    border-color: #0f8a96;
 }
 
-/** INTRO STYLING ENDS HERE **/
-
 /** ABOUT ME STYLING BEGINS HERE **/
+
 #about {
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     color: white;
     background-color: #0f8a96;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
-#about hr {
-    border-color: white;
+#interests {
+    background-color: #ecf0f1;
+    text-align: center;
+    font-size: 12px;
+    color: #7f8c8d;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 #skills {
@@ -106,7 +114,8 @@ ul.nav li.active a {
     display: inline;
 }
 
-/** ABOUT ME STYLING ENDS HERE **/
+/** PORTFOLIO STYLING **/
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
@@ -162,8 +171,10 @@ ul.nav li.active a {
     opacity: 1;
 }
 
+/** CONTACT STYLING **/
+
 #contact {
-    height: 340px;
+    padding-top: 70px;
     background-color: #ecf0f1;
 }
 
