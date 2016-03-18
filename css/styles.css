@@ -62,21 +62,6 @@ ul.nav li.active a {
     margin-top: 2.5em;
 }
 
-.btn-lg {
-    background: white !important;
-    color: #0f8a96;
-	border: 2px solid white;
-    border-radius: 0%;
-	width: 130px;
-    font-size: 12px;
-    margin-top: 30px;
-}
-
-.btn-lg:hover {
-    background: none !important;
-    border-color: #0f8a96;
-}
-
 /** ABOUT ME STYLING BEGINS HERE **/
 
 #about {
