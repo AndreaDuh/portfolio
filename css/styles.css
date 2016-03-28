@@ -57,30 +57,9 @@ ul.nav li.active a {
 
 .jumbotron p {
 	margin-bottom: 2em;
-    font-size: 16px;
+    font-size: 22px;
     color: white;
     margin-top: 2.5em;
-}
-
-/** ABOUT ME STYLING BEGINS HERE **/
-
-#about {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 300;
-    color: white;
-    background-color: #0f8a96;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-#interests {
-    background-color: #ecf0f1;
-    text-align: center;
-    font-size: 12px;
-    color: #7f8c8d;
-    padding-top: 20px;
-    padding-bottom: 30px;
 }
 
 #skills {
@@ -93,10 +72,20 @@ ul.nav li.active a {
 #skills h2 {
    color: #0f8a96; 
    padding-top: 20px;
+   font-size: 36px;
+}
+
+#skills h3 {
+   color: #0f8a96; 
+   font-size: 20px;
 }
 
 .icons {
     display: inline;
+}
+
+.text {
+    font-size: 14px;
 }
 
 /** PORTFOLIO STYLING **/
@@ -165,13 +154,22 @@ ul.nav li.active a {
 
 #contact h2 {
     text-align: center;
-    color: #0f8a96;
+    color: c;
     margin-top: 40px;
 }
 
 #contact p {
     color: #7f8c8d;
     font-size: 18px;
+}
+
+#contact a {
+    color: grey;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: #0f8a96;
 }
 
 .glyphicon, .fa {
@@ -184,7 +182,8 @@ ul.nav li.active a {
     text-align: center;
     font-size: 12px;
     color: #7f8c8d;
-    margin-top: 30px; 
+    margin-top: 30px;
+    margin-bottom: 20px; 
 }
 
 
