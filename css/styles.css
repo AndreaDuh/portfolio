@@ -12,9 +12,6 @@ body {
     background-color: #ecf0f1;
 }
 
-section {
-    padding: 70px 0;
-}
 
 /** NAVBAR STYLING BEGINS HERE **/
 
@@ -105,21 +102,38 @@ header .header-content .inner p {
     color: white;
 }
 
-#video-background {
-  position: absolute;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: 900px;
-  z-index: 1;
+#about {
+    background-color: white;
+    text-align: center;
+    color: #7f8c8d;
 }
 
-@media(max-width:1024px) {
-    #video-background {
-        visibility: hidden;
-    }
+
+#about h2 {
+   color: #0f8a96; 
+   padding-top: 20px;
+   font-size: 36px;
+   margin-top: 30px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    margin-bottom: 50px;
+    background-color: #0f8a96;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
 }
 
 #skills {
@@ -128,17 +142,26 @@ header .header-content .inner p {
     color: #7f8c8d;
 }
 
+.video {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
 
 #skills h2 {
    color: #0f8a96; 
    padding-top: 20px;
    font-size: 36px;
-   margin-top: -20px;
+   margin-top: 30px;
 }
 
 #skills h3 {
    color: #0f8a96; 
    font-size: 20px;
+}
+
+#skills p {
+       margin-bottom: 50px;
 }
 
 .icons {
@@ -154,13 +177,14 @@ header .header-content .inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0;
-    max-width: 650px;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -209,14 +233,13 @@ header .header-content .inner p {
 /** CONTACT STYLING **/
 
 #contact {
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: #ecf0f1;
 }
 
 #contact h2 {
     text-align: center;
     color:  #0f8a96;
-    margin-top: 20px;
 }
 
 #contact p {
@@ -256,5 +279,10 @@ header .header-content .inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+.img-center {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
